@@ -1,0 +1,397 @@
+/* Table of contents
+1) Menu
+2) Widget
+3) Survey
+4) New to the site? Launcher*/
+
+/* 1) Menu */
+
+/* make menu wider with the border color red */
+#walkme-menu.walkme-penguin.walkme-docked.walkme-position-major-bottom .walkme-main {
+	width: 500px;
+	border-left: #B34545 5px solid !important;
+}
+
+/* menu title color */
+#walkme-menu.walkme-penguin .walkme-title {
+	color: #B34545 !important;
+	font-family: Mada, sans-serif !important;
+}
+
+/* menu, search box text color greyish black */
+#walkme-menu.walkme-penguin .walkme-search-box {
+	color: #484848 !important;
+	font-family: Mada, sans-serif !important;
+}
+
+/* menu, search width changed to show all characters */
+#walkme-menu.walkme-penguin .walkme-search-box, .walkme-menu.walkme-penguin * .walkme-search-box{
+	width: 426px !important;
+}
+
+/* menu, minimize button to the right edge, color it red */
+#walkme-menu.walkme-penguin.walkme-direction-ltr .walkme-minimize, .walkme-menu.walkme-penguin *.walkme-direction-ltr .walkme-minimize{
+	right: -61px !important;
+	color: #B34545 !important;
+}
+
+/* menu, widen search box to fit all character */
+#walkme-menu.walkme-penguin.walkme-docked .walkme-deployables-list, .walkme-menu.walkme-penguin .walkme-search-results-list, .walkme-menu.walkme-penguin * .walkme-deployables-list, .walkme-menu.walkme-penguin * .walkme-search-results-list{
+	width: 485px !important;
+}
+
+/* menu, widen category box to fit all character, changing color to red */
+#walkme-menu.walkme-penguin .walkme-category > .walkme-deployable-row > .walkme-deployable-icon, .walkme-menu.walkme-penguin * .walkme-category > .walkme-deployable-row > .walkme-deployable-icon{
+	width:36px !important;
+}
+
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-category > .walkme-deployable-row > .walkme-deployable-icon, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-category > .walkme-deployable-row > .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-category > .walkme-deployable-row > .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-category > .walkme-deployable-row > .walkme-deployable-icon{
+	color: #B34545 !important;
+}
+
+/* category text color and width */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-category > .walkme-deployable-row > .walkme-text > .walkme-name, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-category > .walkme-deployable-row > .walkme-text > .walkme-name, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-category > .walkme-deployable-row > .walkme-text > .walkme-name, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-category > .walkme-deployable-row > .walkme-text > .walkme-name{
+	width: 422px !important;
+	color: #B34545 !important;
+	position: absolute !important;
+	font-family: Mada, sans-serif !important;
+	font-size: 15px !important;
+}
+
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable .walkme-name, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable .walkme-name, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable .walkme-name, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable .walkme-name{
+	width: 383px !important;
+	font-family: Mada, sans-serif !important;
+}
+
+/* widen area when scrolling bar appears */
+#walkme-menu.walkme-penguin.walkme-direction-ltr .walkme-deployables-list.walkme-jspScrollable .walkme-jspPane, .walkme-menu.walkme-penguin.walkme-direction-ltr .walkme-search-results-list.walkme-jspScrollable .walkme-jspPane, .walkme-menu.walkme-penguin .walkme-direction-ltr .walkme-deployables-list.walkme-jspScrollable .walkme-jspPane, .walkme-menu.walkme-penguin .walkme-direction-ltr .walkme-search-results-list.walkme-jspScrollable .walkme-jspPane{
+	width: 472px !important;
+}
+
+#walkme-menu.walkme-penguin.walkme-docked .walkme-deployables-list .walkme-search-results-list-inner, .walkme-menu.walkme-penguin.walkme-docked .walkme-search-results-list .walkme-search-results-list-inner, .walkme-menu.walkme-penguin.walkme-splash .walkme-deployables-list .walkme-search-results-list-inner, .walkme-menu.walkme-penguin.walkme-splash .walkme-search-results-list .walkme-search-results-list-inner, .walkme-menu.walkme-penguin *.walkme-docked .walkme-deployables-list .walkme-search-results-list-inner, .walkme-menu.walkme-penguin *.walkme-docked .walkme-search-results-list .walkme-search-results-list-inner, .walkme-menu.walkme-penguin *.walkme-splash .walkme-deployables-list .walkme-search-results-list-inner, .walkme-menu.walkme-penguin *.walkme-splash .walkme-search-results-list .walkme-search-results-list-inner {
+	width: 483px ! important; /*same as above but for Chrome */
+}
+
+/* search button */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-search-box-button .walkme-search-box-button-image, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-search-box-button .walkme-search-box-button-image{
+	background-color: #B34545 !important;
+}
+
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-search-box-button, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-search-box-button{
+	background: #B34545 !important;
+}
+
+/* contact help-desk color */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-open-ticket, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-open-ticket{
+	color: #B34545 !important;
+}
+
+/* menu,  icons color */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-category.walkme-opened .walkme-activatable .walkme-deployable-icon, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-category.walkme-opened .walkme-activatable .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-category.walkme-opened .walkme-activatable .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-category.walkme-opened .walkme-activatable .walkme-deployable-icon{
+	color: #B34545 !important;
+}
+
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-category.walkme-opened .walkme-activatable .walkme-deployable-icon, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-category.walkme-opened .walkme-activatable .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-category.walkme-opened .walkme-activatable .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-category.walkme-opened .walkme-activatable .walkme-deployable-icon: hover { color: red !important;}
+
+/* icon color after typing in search */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-content.walkme-article .walkme-deployable-icon, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-content.walkme-article .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-content.walkme-article .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-content.walkme-article .walkme-deployable-icon{
+	color: #B34545 !important;
+}
+
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-activatable.walkme-flow .walkme-deployable-icon, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-activatable.walkme-flow .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-activatable.walkme-flow .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-activatable.walkme-flow .walkme-deployable-icon{
+	color: #B34545 !important;
+}
+
+/* widget customization */
+#walkme-player.walkme-colorado.walkme-theme-white-orange .walkme-question-mark, .walkme-player.walkme-colorado.walkme-theme-white-orange * .walkme-question-mark{
+	background-color: #B34545 !important;
+}
+
+/* no results icon */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-message .walkme-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-message .walkme-icon {
+	color: #B34545 !important;
+}
+/* change hover items color */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-category.walkme-opened .walkme-activatable:not(.walkme-inactive):hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-category.walkme-opened .walkme-activatable:not(.walkme-inactive):hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-category.walkme-opened .walkme-activatable:not(.walkme-inactive):hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-category.walkme-opened .walkme-activatable:not(.walkme-inactive):hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name {
+	background-color: #FBF7F7 !important;
+}
+
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable:hover, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable:hover{
+	background-color: #FBF7F7 !important;
+}
+
+/* change hover categories color */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-category > .walkme-deployable-row:hover, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-category.walkme-opened > .walkme-deployable-row:hover, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-category > .walkme-deployable-row:hover, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-category.walkme-opened > .walkme-deployable-row:hover {
+	background-color: #f5f5f5 !important;
+}
+
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-category > .walkme-deployable-row > .walkme-deployable-icon, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-category > .walkme-deployable-row > .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-category > .walkme-deployable-row > .walkme-deployable-icon, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-category > .walkme-deployable-row > .walkme-deployable-icon {
+	background-color: #f5f5f5 !important;
+}
+
+/* change hover text without search */
+div.walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-deployable.walkme-category.walkme-opened .walkme-activatable:not(.walkme-inactive):hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name, .walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable.walkme-category.walkme-opened .walkme-activatable:not(.walkme-inactive):hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-deployable.walkme-category.walkme-opened .walkme-activatable:not(.walkme-inactive):hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name, .walkme-menu.walkme-penguin *.walkme-theme-white-orange .walkme-activatable.walkme-category.walkme-opened .walkme-activatable:not(.walkme-inactive):hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name {
+	color: #B34545 !important;
+}
+
+/* change hover text with search */
+#walkme-menu.walkme-penguin.walkme-theme-white-orange .walkme-activatable:hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name, .walkme-menu.walkme-penguin .walkme-theme-white-orange .walkme-activatable:hover > .walkme-deployable-row > .walkme-text > .walkme-deployable-name {
+	color: #B34545 !important;
+}
+
+/* make menu height longer  */
+#walkme-menu.walkme-penguin.walkme-docked, .walkme-menu.walkme-penguin *.walkme-docked {
+	min-height: 500px !important;
+} 
+
+/* 2) Widget */
+/* WRAN-1712 font change */
+.walkme-title.walkme-override.walkme-css-reset {
+	font-family: Mada, sans-serif !important;
+	font-size: 20px !important;
+}
+
+/* make widget move left  */
+.walkme-player.walkme-colorado.walkme-position-minor-right, .walkme-player.walkme-colorado *.walkme-position-minor-right {
+	right: 270px !important;
+}
+
+/* 3) Survey */
+/* Submit button color*/
+.walkme-custom-balloon-submit-button{
+	background: #B34545 !important;
+}
+
+/* side border color*/
+div.walkme-custom-side-border {
+	background-color: #B34545 !important;
+}
+
+/* hover color */
+.walkme-survey-question-nps-answers .walkme-survey-answer-label-nps-radiobutton:hover {
+	background: #B34545 !important;
+	border-color: #B34545 !important;
+}
+
+.walkme-survey-nps-answer.selected .walkme-survey-answer-label-nps-radiobutton:active {
+	background: #B34545 !important;
+	border-color: #B34545 !important;
+}
+
+/* check box color */
+.walkme-survey-answer .walkme-survey-answer-checkbox[type=checkbox]:checked + .walkme-survey-answer-label-checkbox .walkme-survey-answer-label-checked {
+	color: #B34545 !important;
+}
+
+input[type=checkbox] {
+	color: #B34545 !important;
+}
+
+.walkme-custom-balloon-content-wrapper {
+	font-family: Mada, sans-serif !important;
+}
+
+.walkme-survey-question-title {
+	font-size: 15px !important;
+}
+
+.walkme-survey-question-radiobutton-answers {
+	font-family: Mada, sans-serif !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+}
+
+.walkme-custom-balloon-button-text {
+	font-family: Quicksand !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+}
+/* draft 4 try to match chrome and safari*/
+/*WRAN-1585 draft, WRAN-1635 fix, remove after WRAN-1858 is closed */
+#walkme-survey-balloon-69379 {
+top: 5% !important;
+left: 52.5% !important;
+z-index: 20000!important;
+position: absolute !important;
+/* height: 59px !important; */
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-mid-div {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-inner-div {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-custom-div-inner-div {
+position: absolute !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-top-div {
+position: relative !important;
+display: inline-block !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-content-wrapper {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-action-close {
+	color: #C4C3BF !important;
+	top: 12px !important;
+}
+#walkme-survey-balloon-69379 .walkme-custom-balloon-title {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-content {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey {
+position: relative !important;
+width: 378px !important;
+display: flex !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-questions {
+position: relative !important;
+display: flex !important;
+width: 313px !important;
+}
+
+#walkme-survey-balloon-69379 #walkme-survey-question-separator-before-0 {
+display: none !important;
+}
+
+#walkme-survey-question-142579 {
+position: relative !important;
+display: flex !important;
+width: 377px !important;
+align-items: center !important;
+}
+
+#walkme-survey-question-142579 .walkme-survey-question-title {
+font-size: 14px !important;
+display: flex !important;
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-question-sub-title {
+display: none !important;
+}
+
+#walkme-survey-question-radiobutton-answers-142579 {
+top: 5% !important;
+left: 3% !important;
+display: flex !important;
+position: relative!important;
+vertical-align: sub !important;
+flex: 0 1 40px !important;
+width: 120px !important;
+}
+
+#walkme-survey-question-answer-262282 {
+position: relative !important;
+display: flex !important;
+}
+
+#walkme-survey-answer-radiobutton-div-262282 {
+    display: inline-flex !important;
+}
+
+#walkme-survey-answer-text-262282 {
+position: relative !important;
+display: flex !important;
+margin-top: -1px;
+}
+
+#walkme-survey-answer-radiobutton-div-262283 {
+    display: inline-flex !important;
+}
+
+#walkme-survey-question-answer-262283 {
+position: relative !important;
+display: flex !important;
+}
+
+#walkme-survey-answer-text-262283 {
+position: relative !important;
+display: inline-flex !important;
+margin-top: -1px !important;
+}
+
+#walkme-survey-balloon-69379 #walkme-survey-question-separator-after-0 {
+position: absolute !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-extra-div-0 {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-extra-div-1 {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-extra-div-2 {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-extra-div-3 {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-separator {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-bottom-div {
+position: relative !important;
+display: inline !important;
+left: 0% !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-subtext {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-top-div-bottom {
+position: absolute !important;
+display: inline !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-buttons-wrapper {
+position: relative !important;
+display: inline-flex !important;
+left: -135% !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-submit-button {
+background: #B34545 !important;
+position: relative !important;
+display: inline-flex !important;
+margin-top: 12px !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-button-text {
+font-size: 12px !important;
+} 
+
+#walkme-survey-balloon-69379 .walkme-custom-side-border {
+width: 12px !important;
+background-color: #B34545 !important;
+}
+
+/* 4) "New to the site launcher" */
+/* make format same as portal */
+.custom-launcher-263065 {
+	font-weight: bold !important;
+	font-size: 12px !important;
+	font-family: Helvetica Neue, san-serif !important;
+	border-color: rgb(192, 192, 192) !important;
+}
+
+.walkme-survey-balloon .walkme-action-close {
+  color: #C4C3BF !important;
+}

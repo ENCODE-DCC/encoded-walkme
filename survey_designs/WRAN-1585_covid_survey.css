@@ -1,0 +1,176 @@
+/* WRAN-1585 -- START */
+
+#walkme-survey-balloon-69379 {
+top: 5% !important;
+left: 52.5% !important;
+z-index: 20000!important;
+position: absolute !important;
+/* height: 59px !important; */
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-mid-div {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-inner-div {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-custom-div-inner-div {
+position: absolute !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-top-div {
+position: relative !important;
+display: inline-block !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-content-wrapper {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-action-close {
+	color: #C4C3BF !important;
+	top: 12px !important;
+}
+#walkme-survey-balloon-69379 .walkme-custom-balloon-title {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-content {
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey {
+position: relative !important;
+width: 378px !important;
+display: flex !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-questions {
+position: relative !important;
+display: flex !important;
+width: 313px !important;
+}
+
+#walkme-survey-balloon-69379 #walkme-survey-question-separator-before-0 {
+display: none !important;
+}
+
+#walkme-survey-question-142579 {
+position: relative !important;
+display: flex !important;
+width: 377px !important;
+align-items: center !important;
+}
+
+#walkme-survey-question-142579 .walkme-survey-question-title {
+font-size: 14px !important;
+display: flex !important;
+position: relative !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-question-sub-title {
+display: none !important;
+}
+
+#walkme-survey-question-radiobutton-answers-142579 {
+top: 5% !important;
+left: 3% !important;
+display: flex !important;
+position: relative!important;
+vertical-align: sub !important;
+flex: 0 1 40px !important;
+width: 120px !important;
+}
+
+#walkme-survey-question-answer-262282 {
+position: relative !important;
+display: flex !important;
+}
+
+#walkme-survey-answer-radiobutton-div-262282 {
+    display: inline-flex !important;
+}
+
+#walkme-survey-answer-text-262282 {
+position: relative !important;
+display: flex !important;
+margin-top: -1px;
+}
+
+#walkme-survey-answer-radiobutton-div-262283 {
+    display: inline-flex !important;
+}
+
+#walkme-survey-question-answer-262283 {
+position: relative !important;
+display: flex !important;
+}
+
+#walkme-survey-answer-text-262283 {
+position: relative !important;
+display: inline-flex !important;
+margin-top: -1px !important;
+}
+
+#walkme-survey-balloon-69379 #walkme-survey-question-separator-after-0 {
+position: absolute !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-extra-div-0 {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-extra-div-1 {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-extra-div-2 {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-survey-extra-div-3 {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-separator {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-bottom-div {
+position: relative !important;
+display: inline !important;
+left: 0% !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-subtext {
+display: none !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-top-div-bottom {
+position: absolute !important;
+display: inline !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-buttons-wrapper {
+position: relative !important;
+display: inline-flex !important;
+left: -135% !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-submit-button {
+background: #B34545 !important;
+position: relative !important;
+display: inline-flex !important;
+margin-top: 12px !important;
+}
+
+#walkme-survey-balloon-69379 .walkme-custom-balloon-button-text {
+font-size: 12px !important;
+} 
+
+#walkme-survey-balloon-69379 .walkme-custom-side-border {
+width: 12px !important;
+background-color: #B34545 !important;
+}

@@ -1,0 +1,322 @@
+/* Custom Balloons -- START */
+
+.walkme-custom-balloon-outer-div,
+.walkme-custom-balloon-mid-div,
+.walkme-custom-balloon-inner-div {
+  min-width: 300px !important;
+  max-width: 320px !important;
+}
+
+.walkme-custom-balloon-outer-div,
+.walkme-custom-balloon-mid-div,
+.walkme-custom-balloon-inner-div,
+.walkme-custom-balloon-top-div {
+  border-radius: 20px !important;
+}
+
+.walkme-custom-balloon-mid-div,
+.walkme-custom-balloon-inner-div {
+  border: 2px solid #B34545 !important;
+}
+
+.walkme-custom-balloon-bottom-div {
+  background-color: #B34545 !important;
+}
+
+.walkme-custom-balloon-mid-div {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25) !important;
+}
+
+.walkme-custom-balloon-inner-div,
+.walkme-custom-balloon-top-div {
+  background-color: #ffffff !important;
+}
+
+.walkme-custom-balloon-inner-div {
+  border: 1px solid #f8f8f8 !important;
+}
+
+/* X */
+
+.walkme-custom-balloon-close-button {
+  color: #C4C3BF !important;
+  top: 5px !important;
+  right: 6px !important;
+  font-family: sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 100 !important;
+}
+
+/* Title */
+
+.walkme-custom-balloon-title {
+  padding: 5px 5px 5px !important;
+  margin: 15px 15px 5px !important;
+  font-size: 1rem !important;
+  color: #484848 !important;
+  font-family: Mada, sans-seriff !important;
+}
+
+/* Content */
+
+.walkme-custom-balloon-content {
+  margin: 5px 20px 24px !important;
+  font-size: 1rem !important;
+  color: #484848 !important;
+  overflow: visible !important;
+}
+
+.walkme-custom-balloon-content b {
+  font-family: Mada, sans-seriff !important;
+}
+
+.walkme-custom-ballon-subtext {
+  font-family: Mada, sans-seriff !important;
+}
+
+/* Footer */
+
+.walkme-custom-balloon-separator {
+  background-color: #B34545 !important;
+}
+
+.walkme-custom-balloon-bottom-div {
+  background-color: #B34545 !important;
+}
+
+.walkme-custom-balloon-bottom-div .walkme-custom-balloon-subtext {
+  margin: 14px 0 0 20px !important;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+}
+
+/* Buttons */
+
+.walkme-custom-balloon-buttons-wrapper {
+  padding: 0 3px !important;
+  margin: 0 !important;
+  background-color: #B34545 !important;
+}
+
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-normal-button,
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-weak-button {
+  height: 22px !important;
+  margin: 8px 10px !important;
+  padding: 0 10px !important;
+}
+
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-normal-button {
+  margin: 10px 12px 10px 0 !important;
+  background-color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 12px !important;
+}
+
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-weak-button {
+  margin: 10px 0 !important;
+  border: 2px solid transparent !important;
+}
+
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-normal-button .walkme-custom-balloon-button-text {
+  color: #484848 !important;
+}
+
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-weak-button .walkme-custom-balloon-button-text {
+  color: #ffffff !important;
+}
+
+.walkme-custom-balloon-button-text {
+  font-size: 14px !important;
+}
+
+.walkme-custom-balloon-back-button {
+  font-family: Quicksand !important;
+  font-weight: 700 !important;
+}
+
+.walkme-custom-balloon-next-button {
+  font-family: Quicksand !important;
+  font-weight: 700 !important;
+}
+
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-normal-button:hover {
+  background-color: transparent !important;
+  border: 2px solid #ffffff !important;
+}
+
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-normal-button:hover .walkme-custom-balloon-button-text {
+  color: #ffffff !important;
+}
+
+.walkme-custom-balloon-buttons-wrapper .walkme-custom-balloon-button.walkme-custom-balloon-weak-button:hover .walkme-custom-balloon-button-text {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Remove Side Border */
+
+.walkme-custom-side-border {
+  display: none !important;
+}
+
+/* labeling steps */
+
+.walkme-custom-balloon-bottom-div .walkme-custom-balloon-subtext {
+  color: white !important;
+  font-size: 0.7px !important;
+}
+
+/* Alternative Balloon Styles */
+
+/* No Buttons */
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons .walkme-custom-balloon-inner-div,
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons .walkme-custom-balloon-top-div {
+  background-color: #fff !important;
+}
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons .walkme-custom-balloon-inner-div {
+  border: none !important;
+}
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons .walkme-custom-balloon-content {
+  margin-bottom: 16px !important;
+}
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons .walkme-custom-balloon-bottom-div .walkme-custom-balloon-subtext {
+  margin-top: 4px !important;
+  margin-bottom: 8px !important;
+}
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons .walkme-custom-balloon-bottom-div .walkme-custom-powered-by-div {
+  margin: 5px 14px 10px 0 !important;
+}
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons .walkme-custom-balloon-bottom-div .walkme-custom-powered-by-div .walkme-custom-powered-by {
+  font-family: inherit !important;
+  font-size: 0.7rem !important;
+  font-weight: 300 !important;
+}
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons .walkme-custom-balloon-bottom-div .walkme-custom-balloon-top-div-bottom {
+  padding-bottom: 4px !important;
+}
+
+/* No Content */
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-content .walkme-custom-balloon-title {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+
+/* No Buttons, No Content */
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-buttons.walkme-custom-no-content .walkme-custom-balloon-title {
+  padding: 2px !important;
+  margin: 22px 28px 8px 18px !important;
+}
+
+/* No Title */
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-title .walkme-custom-balloon-title {
+  padding-top: 16px !important;
+}
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-title .walkme-custom-balloon-content {
+  margin-right: 30px !important;
+}
+
+/* No Title, No Buttons */
+
+.walkme-custom-balloon-outer-div.walkme-custom-no-title.walkme-custom-no-buttons .walkme-custom-balloon-content {
+  margin-bottom: 16px !important;
+}
+
+/* Popup Steps */
+
+.walkme-custom-popup-step.walkme-custom-balloon-outer-div,
+.walkme-custom-popup-step .walkme-custom-balloon-mid-div,
+.walkme-custom-popup-step .walkme-custom-balloon-inner-div {
+  min-width: 260px !important;
+  max-width: 600px !important;
+}
+
+/* Arrows */
+
+/* White */
+
+/* Left Inner Arrow Color */
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-right.walkme-custom-balloon-arrow-inner {
+  border-color: transparent #fff transparent transparent !important;
+}
+
+/* Left Outer Arrow Color */
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-right.walkme-custom-balloon-arrow-outer {
+  border-color: transparent #B34545 transparent transparent !important;
+}
+
+/* Right Inner Arrow Color */
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-left.walkme-custom-balloon-arrow-inner {
+  border-color: transparent transparent transparent #fff !important;
+}
+
+/* Right Outer Arrow Color */
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-left.walkme-custom-balloon-arrow-outer {
+  border-color: transparent transparent transparent #B34545 !important;
+}
+
+/* Top Inner Arrow Color */
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-bottom.walkme-custom-balloon-arrow-inner {
+  margin-top: 1px !important;
+  border-color: transparent transparent #fff !important;
+}
+
+/* Top Outer Arrow Color */
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-bottom.walkme-custom-balloon-arrow-outer {
+  margin-top: 1px !important;
+  border-color: transparent transparent #B34545 !important;
+}
+
+/* Bottom Arrow Color */
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-top.walkme-custom-balloon-arrow-outer {
+  border-color: #B34545 transparent transparent !important;
+}
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-top.walkme-custom-balloon-arrow-inner {
+  margin-top: -2px !important;
+  border-color: #B34545 transparent transparent !important;
+}
+
+/* Blue */
+
+/* Left Arrow Color */
+
+.walkme-custom-no-buttons ~ .walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-right.walkme-custom-balloon-arrow-inner {
+  border-color: transparent #fff transparent transparent !important;
+}
+
+/* Right Arrow Color */
+
+.walkme-custom-no-buttons ~ .walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-left.walkme-custom-balloon-arrow-inner {
+  border-color: transparent transparent transparent #fff !important;
+}
+
+/* Top Arrow Color */
+
+.walkme-custom-no-buttons ~ .walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-bottom.walkme-custom-balloon-arrow-inner {
+  border-color: transparent transparent #fff !important;
+}
+
+/* Bottom Arrow Color */
+
+.walkme-custom-no-buttons ~ .walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-top.walkme-custom-balloon-arrow-inner {
+  border-color: #B34545 transparent transparent !important;
+}
+
+/* Theme 1 Custom Balloons -- END */

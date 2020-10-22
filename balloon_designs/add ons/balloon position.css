@@ -1,0 +1,17 @@
+/* Positioning balloon, pointing at facets */
+/* you will need to play around with the percentages */
+
+.walkme-custom-balloon-outer-div,
+.walkme-custom-balloon-mid-div,
+.walkme-custom-balloon-inner-div,
+.walkme-custom-balloon-top-div {
+  top: 10% !important;
+}
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-right.walkme-custom-balloon-arrow-inner {
+  top: 15% !important;
+}
+
+.walkme-custom-balloon-arrow.walkme-custom-balloon-arrow-right.walkme-custom-balloon-arrow-outer {
+  top: 15% !important;
+}
