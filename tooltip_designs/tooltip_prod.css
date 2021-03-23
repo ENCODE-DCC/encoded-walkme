@@ -1,0 +1,23 @@
+.walkme-tooltip-inner-div {
+	border: 1px solid #e0e0e0 !important;
+	border-radius: 3px !important;
+}
+
+.walkme-tooltip-content{
+	font-family: Mada, sans-serif !important;
+	font-size: 1rem !important;
+	color: #000 !important;
+}
+
+.walkme-tooltip-mid-div{
+	box-shadow: 7px 5px 7px -5px  #ccc !important;
+}
+
+.walkme-tooltip-content-wrapper{
+	line-height: 1.2 !important;
+}
+
+.walkme-custom-tooltip-arrow {
+	border: 1px solid #e0e0e0 !important;
+	border-style: none !important;
+}
